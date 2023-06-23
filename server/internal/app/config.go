@@ -19,7 +19,7 @@ const configPrefix = "reearth"
 type Config struct {
 	Port    string `default:"8090" envconfig:"PORT"`
 	Dev     bool
-	DB      string `default:"mongodb://localhost"`
+	DB      string `default:"mongodb+srv://dschiffer12:Goose1212@geoforgedb.sjzikyj.mongodb.net"`
 	Origins []string
 	Host    string
 
